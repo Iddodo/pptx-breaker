@@ -35,7 +35,6 @@ rm "$file"
 
 echo "Removing evil XML tag..."
 # Remove read-only mechanism
-#sed "s#<${tag_name}.*/>##g" "${xml_file}" > "${xml_file}.tmp"
 sed "s/<$tag_name [^>]*\/>//g" "${xml_file}" > "${xml_file}.tmp"
 mv "${xml_file}.tmp" "${xml_file}"
 
