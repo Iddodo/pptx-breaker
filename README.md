@@ -1,4 +1,4 @@
-Basically, this script breaks pptx passwords (or rather, creates a new WaReZ copy of them).
+Basically, this script makes locked-down, read-only PPTX files editable (or rather, creates a new WaReZ copy of them).
 
 Created out of necessity for the Technion's 234218 Data Structures course.
 
