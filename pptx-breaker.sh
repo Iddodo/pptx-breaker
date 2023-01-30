@@ -6,7 +6,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 file="$1"
-res_file="${file%.*}_CrAcKeD_WaReZ_GALIL_TEAM.pptx"
+res_file="${file%.*}_PASSWORD_REMOVED.pptx"
 tmpdir=".tmp_$1"
 xml_file="ppt/presentation.xml"
 tag_name="p:modifyVerifier"
