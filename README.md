@@ -14,7 +14,7 @@ You can even run this script on multiple files, for example:
 ```bash
 #!/bin/bash
 for presentation in *; do
-  ../pptx-breaker.sh "$presentation"
+  ./pptx-breaker.sh "$presentation"
 done
 ```
 
