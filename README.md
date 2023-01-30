@@ -6,15 +6,15 @@ The idea was shameless stolen directly from [this repo](https://github.com/nedli
 
 # How to use
 Simply run the script as following:
-```console
+```bash
 ./pptx-breaker.sh READ_ONLY_PRESENTATION.pptx
 ```
 
 You can even run this script on multiple files, for example:
-```console
+```bash
 #!/bin/bash
 for presentation in *; do
-  ../pptx-breaker.sh "$file"
+  ../pptx-breaker.sh "$presentation"
 done
 ```
 
