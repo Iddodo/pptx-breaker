@@ -1,8 +1,8 @@
-Basically, this script makes locked-down, read-only PPTX files editable (or rather, creates a new WaReZ copy of them).
+Basically, this script makes locked-down, read-only PPTX files editable.
 
 Created out of necessity for the Technion's 234218 Data Structures course.
 
-The idea was shameless stolen directly from [this repo](https://github.com/nedlir/OfficerBreaker/).
+The idea was shamelessly stolen directly from [this repo](https://github.com/nedlir/OfficerBreaker/).
 
 # How to use
 Simply run the script as following:
